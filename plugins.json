@@ -1,0 +1,21 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/Yogesh-S-09/AniyomiCompatExtension/builds/AniyomiProvider.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "AniyomiProvider",
+        "internalName": "AniyomiProvider",
+        "authors": [
+            "CranberrySoup"
+        ],
+        "description": "Use Aniyomi Extensions in CloudStream!\nNot guaranteed to work perfectly.",
+        "fileSize": 38414,
+        "repositoryUrl": "https://github.com/Yogesh-S-09/AniyomiCompatExtension",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=aniyomi.org&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-efde35d60dd91bb4208d7174c01566b4b0dbee86f9f4cc258a275d5046bb40c9"
+    }
+]
