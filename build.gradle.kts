@@ -50,8 +50,8 @@ subprojects {
 
         defaultConfig {
             minSdk = 23
-            targetSdk = 35
-            compileSdkVersion(35)
+            targetSdk = 36
+            compileSdkVersion(36)
         }
 
         compileOptions {
@@ -80,8 +80,8 @@ subprojects {
         val cloudstream by configurations
         val implementation by configurations
 
-        // Stubs for all Cloudstream classes
-        cloudstream("com.lagradost:cloudstream3:-SNAPSHOT")
+        // Stubs for all Cloudstream classes (app stubs: this plugin needs Plugin, CommonActivity, ui.settings)
+        cloudstream("com.lagradost:cloudstream3:pre-release")
 
         // these dependencies can include any of those which are added by the app,
         // but you dont need to include any of them if you dont need them
